@@ -11,7 +11,11 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
+<<<<<<< HEAD
         $middleware->validateCsrfTokens(except: ['*']);
+=======
+        //
+>>>>>>> 5b8bdf94fa502fad8db313ef38140d5d119705f9
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

@@ -1,12 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Models\ClassRoomModel;
 use Illuminate\Support\Facades\DB;
+=======
+>>>>>>> 5b8bdf94fa502fad8db313ef38140d5d119705f9
 
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 // get all students
 Route::get('/students', function() {
     $students = ClassRoomModel::getAllStudents();
@@ -74,3 +78,5 @@ Route::delete('/teachers/{id}', function($id) {
 
 
 
+=======
+>>>>>>> 5b8bdf94fa502fad8db313ef38140d5d119705f9
